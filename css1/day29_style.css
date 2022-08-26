@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #e7ce9f;
+}
+p{
+    margin: 0;
+    padding: 10px;
+    text-align: justify;
+}
+h1{
+    margin:0;
+    padding:0;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.my-website{
+    margin-top: 0;
+    padding: 40px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 4px rgb(37, 36, 36);
+    background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+   
+}
+.menu{
+    overflow: hidden;
+    list-style: none;
+    height: 30px;
+    padding: 10px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    box-shadow: 3px 3px 4px rgb(37, 36, 36);
+    border-radius: 0px 0px 0px 0px;
+}
+ul li a{
+    display: block;
+    float: left;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+    text-align: center;
+    transition: .5s
+}
+ul li a:hover{
+    background-color: rgb(44, 40, 40);
+    border-radius: 50px 50px 50px 50px;
+}
+ul li:nth-child(4)
+{
+    float: right;
+}
+.main-box{
+    width: 100%;
+    height:200vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+    width: 73.5%;
+    height:auto;
+    float:left;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(237, 231, 231);
+    box-shadow: 3px 3px 4px rgb(37, 36, 36);
+    transition: 0.25s;
+}
+.box1:hover{
+    box-shadow: 3px 3px 4px rgb(37, 36, 36);
+    transform: scale(1.025);
+}
+img{
+    width: 100%;
+    height: 30vh;
+    object-fit:cover;
+}
+.box1-copy{
+    margin-top: 20px;
+}
+.about-me{
+    width: 25%;
+    height:auto;
+    float:right;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 12.5px;
+    box-sizing: border-box;
+    background-color: rgb(237, 231, 231);
+    box-shadow: 3px 3px 4px rgb(37, 36, 36);
+    transition: 0.25s;
+}
+.about-me:hover{
+    box-shadow: 3px 3px 4px rgb(37, 36, 36);
+    transform: scale(1.025);
+}
+img{
+    width: 100%;
+    height: 30vh;
+    object-fit:cover;
+}
+footer{
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    float: left;
+    padding: 40px;
+    box-sizing: border-box;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.follow{
+    width: 25%;
+    height: auto;
+    box-sizing: border-box;
+    padding:10px;
+    margin-top:0;
+    float: right;
+    background-color: white;
+    box-shadow: 3px 3px 4px rgb(37, 36, 36);
+}
